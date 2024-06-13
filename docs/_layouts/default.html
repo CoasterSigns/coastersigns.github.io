@@ -33,9 +33,17 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <style>
     nav {
-      width: 100vw;
-      height: 2em;
+      width: 100%;
+      height: 2.5em;
       background: linear-gradient(to right, #6D38FF, #D632FF);
+      color: white;
+      padding-left: 1em;
+      font-size: 1.5em;
+      display: flex;
+      align-items: center;
+    }
+
+    nav a {
       color: white;
     }
   </style>
@@ -43,9 +51,9 @@
 </head>
 
 <body>
-  <div class="container-lg px-3 my-5 markdown-body">
+  <nav><a href="{{ site.url }}">Home</a></nav>
 
-    <nav><a href="{{ site.url }}">Home</a></nav>
+  <div class="container-lg px-3 my-5 markdown-body">
     {{ content }}
     <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
       This site is open source. <a href="https://github.com/CoasterSigns/coastersigns.github.io/edit/main/docs{{ page.path }}">Improve this page</a>.
