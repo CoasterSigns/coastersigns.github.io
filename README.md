@@ -1,0 +1,3 @@
+[ [⤓ Modrinth](https://modrinth.com/plugin/coastersigns) | <!--[⤓ Spigot]() | -->[Source on GitHub](https://github.com/CoasterSigns/CoasterSigns) | [Documentation](https://coastersigns.github.io/) | [Discord](https://discord.gg/4433WMu5bj) ]
+
+This is the source repository for [CoasterSigns](https://github.com/CoasterSigns)'s online documentation website. It uses GitHub-provided [jekyll](https://jekyllrb.com/) to render easy-to-write documentation MarkDown into viewable web pages.
