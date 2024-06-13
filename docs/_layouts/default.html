@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    {{ page.title }}
+  </title>
+  <meta name="generator" content="Jekyll v3.9.5" />
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="description" content="CoasterSigns Documentation" />
+  <meta property="og:description" content="CoasterSigns Documentation" />
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <meta property="og:site_name" content="CoasterSigns" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="twitter:title" content="{{ page.title }}" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "description": "CoasterSigns Documentation",
+      "headline": "{{ page.title }}",
+      "url": "{{ site.url }}{{ page.url }}"
+    }
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <style>
+    nav {
+      width: 100vw;
+      height: 2em;
+      background: linear-gradient(to right, #6D38FF, #D632FF);
+      color: white;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container-lg px-3 my-5 markdown-body">
+
+    <nav><a href="{{ site.url }}">Home</a></nav>
+    {{ content }}
+    <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+      This site is open source. <a href="https://github.com/CoasterSigns/coastersigns.github.io/edit/main/docs{{ page.path }}">Improve this page</a>.
+    </div>
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+  <script>
+    anchors.add();
+  </script>
+</body>
+
+</html>
