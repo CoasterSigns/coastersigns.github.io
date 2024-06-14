@@ -5,4 +5,5 @@ title: CoasterSigns
 For sign documentation, see the following pages:
 - [Attachment Modification](/signs/attachment.html)
 - [TimedScript Execution](/signs/timedscript.html)
-For changelogs, see [here](/changelogs)
+
+For changelogs, see [here](/changelogs).
