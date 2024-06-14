@@ -1,3 +1,6 @@
+---
+layout: sign
+---
 # **Attachment Modification**
 
 - Sign Type `attachment`
@@ -35,9 +38,11 @@ attachments
 (modification)
 ```
 
-`target` is made up of a range, and a child target, both of which are optional The range is indicated by starting with `
-r`, then providing a range in the same syntax as in the modification file. The child element target is indicated by
-starting with `c`, then providing a target in the same syntax as in the modification file.
+`target` is made up of a range, and a child target, both of which are optional.
+
+The range is indicated by starting with `r`, then providing a range in the same syntax as in the modification file.
+
+The child element target is indicated by starting with `c`, then providing a target in the same syntax as in the modification file.
 
 **Examples:**
 

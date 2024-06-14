@@ -1,3 +1,6 @@
+---
+layout: sign
+---
 # **TimedScript Execution**
 
 - Sign Type `timedscript`
