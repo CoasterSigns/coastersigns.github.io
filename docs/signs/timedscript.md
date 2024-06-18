@@ -8,6 +8,8 @@ layout: sign
 - Feature Name: `tmdScr`
     - Subnames: `execution`
 
+![Demonstration of a minecart rolling over a TimedScript Sign, changing the base block below the rail from red to green](/assets/img/timedscriptdemo.gif)
+
 **Prerequisites:** [TimedScripts](https://www.spigotmc.org/resources/timed-scripts.28121) is installed.
 
 ## Running a script
